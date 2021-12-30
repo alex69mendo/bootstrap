@@ -1,0 +1,66 @@
+
+.text-platzi {
+    color: #97c93e !important;
+}
+
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover {
+    background-color: #8dc233;
+}
+
+#nav_bar img {
+    width: 80px;
+}
+
+main #carousel img{
+    max-height: 70vh;
+    object-fit: cover; /*Esta propiedad ajusta la imagen para que quede bien en la pagina web*/
+    filter: grayscale(70%);
+}
+
+/*Se usa para alinear vertical el texto*/
+.overlay .container, .overlay .row
+ {
+    height: 100%;
+}
+
+/*Para agregar un verlay sobre la imagen*/
+main #carousel {
+    position: relative;
+}
+
+main #carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    color: white;
+}
+
+main #fechalugar {
+    background-color:#212529;
+    color: white;
+}
+main #fechalugar img{
+    max-width: 100%;
+}
+#footer {
+    background-color: #121f3d;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+}
+
+#footer a:hover {
+    color: aqua;
+}
